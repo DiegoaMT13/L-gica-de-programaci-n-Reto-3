@@ -3,10 +3,10 @@
 // // Hemos llegado a otra lista de actividades (no obligatorias) para que practiques y refuerces aún más tu aprendizaje. ¿Vamos a hacerlo? Desafíos:
 alert("Ejercicio 1");
 
-let contador = 1;
-while (contador <= 10){
-alert(`El valor de contador es ${contador}`);
-contador = contador + 1;
+let contadorIngreso1 = 1;
+while (contadorIngreso1 <= 10){
+alert(`El valor de contador es ${contadorIngreso1}`);
+contadorIngreso1 = contadorIngreso1 + 1;
 }
 
 alert("Fin del código 1");
@@ -14,10 +14,10 @@ alert("Fin del código 1");
 // // Crea un contador que comience en 10 y vaya hasta 0 usando un bucle 'while'. Muestra cada número.
 alert("Ejercicio 2");
 
-let contador2 = 10;
-while (contador2 >= 1){
-alert(`El valor de contador es ${contador2}`);
-contador2 = contador2 - 1;
+let contadorIngreso2 = 10;
+while (contadorIngreso2 >= 1){
+alert(`El valor de contador es ${contadorIngreso2}`);
+contadorIngreso2 = contadorIngreso2 - 1;
 }
 
 alert("Fin del código 2");
@@ -26,13 +26,13 @@ alert("Fin del código 2");
 
 alert("Ejercicio 3");
 let numeroUsuario = parseInt(prompt('Ingrese un número positivo'));
-let contador3 = 1;
+let contadorIngreso3 = 1;
 console.log(typeof(numeroUsuario));
 alert(numeroUsuario);
 
-while (contador3 <=numeroUsuario ){
-    alert(`El valor de contador es ${contador3}`);
-    contador3 = contador3 + 1;
+while (contadorIngreso3 <=numeroUsuario ){
+    alert(`El valor de contador es ${contadorIngreso3}`);
+    contadorIngreso3 = contadorIngreso3 + 1;
 }
 
 alert("Fin del código 3");
@@ -41,13 +41,13 @@ alert("Fin del código 3");
 
 alert("Ejercicio 4");
 let numeroIngreso = parseInt(prompt('Ingrese un número positivo'));
-let contador4 = 1;
+let contadorIngreso4 = 1;
 console.log(typeof(numeroIngreso));
 alert(numeroIngreso);
 
-while (contador4 <=numeroIngreso ){
-    alert(`El valor de contador es ${contador3}`);
-    contador3 = contador3 - 1;
+while (contadorIngreso4 <=numeroIngreso ){
+    alert(`El valor de contador es ${contadorIngreso4}`);
+    contadorIngreso4 = contadorIngreso4 - 1;
 }
 alert("Fin del código 4");
 
