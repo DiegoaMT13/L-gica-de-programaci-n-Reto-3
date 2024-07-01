@@ -41,7 +41,7 @@ alert("Fin del código 3");
 
 alert("Ejercicio 4");
 let numeroIngreso = parseInt(prompt('Ingrese un número positivo'));
-let contadorIngreso4 = 1;
+let contadorIngreso4 = numeroIngreso;
 console.log(typeof(numeroIngreso));
 alert(numeroIngreso);
 
